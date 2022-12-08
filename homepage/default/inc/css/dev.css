@@ -1,0 +1,34 @@
+/** 로고 이미지 **/
+
+#header.show h1 {height:60px !important;}
+
+img.btn_next.logo { width:100%; height:100%; object-fit: contain; }
+
+@media screen and (max-width:800px) {
+  #header h1{height:60px !important; width:135px !important; top:0px;}
+}
+  
+@media screen and  (max-width:1500px) {
+  #header h1{height:80px; width:240px;}
+}
+
+@media screen and (max-width:800px) {
+  #header.show h1 img {width:135px; height: 60px !important; margin-top:-10px;}
+}
+
+
+/**
+연혁 마지막 dd 이미지
+**/
+.history #section0 .inner .history_box .list_box .history_list li dl dd.img{margin-top:15px;padding:0}
+.history #section0 .inner .history_box .list_box .history_list li dl dd.img{display:none}
+
+@media screen and (max-width:1200px) {
+  .history #section0 .inner .history_box .list_box .history_list li dl dd.img{margin:10px 0 20px 0;padding:0}
+  .history #section0 .inner .history_box .list_box .history_list li dl dd.img{display:none;}
+  .history #section0 .inner .history_box .list_box .history_list li dl dd.img{ padding:10px;}
+
+  .history #section0 .inner .history_box .list_box .history_list li dl p {margin-left: 20px;}
+  .history #section0 .inner .history_box .list_box .history_list li dl p + p{padding-top: 5px;}
+  .history #section0 .inner .history_box .list_box .history_list li dl p + dd{padding-top: 5px;}
+}

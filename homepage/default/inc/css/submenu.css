@@ -1,0 +1,62 @@
+#boxWrapp .subVisual{position: relative;height:700px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size:cover; }
+ 
+/* ----¼­ºê»ó´ÜÀÌ¹ÌÁö---- */
+#boxWrapp .subVisual .title{position: absolute;top: 50%;left: 0%;text-align: center;  text-align:center; width:100%;   letter-spacing:-0.05em;}
+#boxWrapp .sub_img1{background: url(../../img/sub_img1.jpg) no-repeat center 0px fixed;}
+#boxWrapp .sub_img2{background: url(../../img/sub_img2.jpg) no-repeat center 0px fixed;}
+#boxWrapp .sub_img3{background: url(../../img/sub_img3.jpg) no-repeat center 0px fixed;}
+#boxWrapp .sub_img4{background: url(../../img/sub_img4.jpg) no-repeat center 0px fixed;}
+#boxWrapp .sub_img5{background: url(../../img/sub_img5.jpg) no-repeat center 0px fixed;}
+#boxWrapp .title h2{display: inline-block; font-size:70px; line-height:100%; color: #fff;   font-family: 'GmarketSansBold';   padding-bottom:10px;border-bottom:5px solid rgba(255,255,255,0.2); margin-bottom:0px;}
+#boxWrapp .title  p { font-size:17px; color:#fff; padding-top:15px; font-family:GmarketSansMedium;}
+.subVisual .bottom_arrow { position:absolute; z-index:10; bottom:0px; text-align:center; width:70px; height:58px; left:50%; margin-left:-35px; margin-bottom:-29px;}
+.content h3 {font-family: 'GmarketSansMedium'; font-size:30px; color:#00;}
+
+
+@media screen and (max-height:750px) and (min-width:500px){
+#boxWrapp .subVisual{height:520px;  }
+}
+
+@media screen and (min-width:200px) and (max-width:669px) {
+#boxWrapp .subVisual{height:380px;  }
+#boxWrapp .sub_img1,
+#boxWrapp .sub_img2,
+#boxWrapp .sub_img3,
+#boxWrapp .sub_img4,
+#boxWrapp .sub_img5{background-size:1000px;}
+#boxWrapp .subVisual .title{top:40%;} 
+#boxWrapp .title h2{font-size:33px;}
+#boxWrapp .title  p { font-size:13px;  padding-top:10px; max-width:90%; margin:0 auto;}
+.subVisual .bottom_arrow {   width:50px; height:40px;  margin-left:-25px; margin-bottom:-7px;}
+.subVisual .bottom_arrow img {width:100%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----¼­ºê¸Þ´º---- */
+#boxWrapp .menuBar{position: relative; width: 100%; text-align: center; margin:70px 0 50px 0;}
+#boxWrapp .menuBar ul{text-align: center; font-size:0px; }
+#boxWrapp .menuBar li{display: inline-block; }
+#boxWrapp .menuBar li a{padding:20px 25px 15px 25px; cursor:pointer; border:1px #DCDCDC solid; font-size:15px;  opacity:0.7; filter:alpha(opacity=70); border-left:0px; font-family: 'GmarketSansMedium';}
+#boxWrapp .menuBar li:first-child a{border-left:1px #DCDCDC solid; }
+#boxWrapp .menuBar li a.on_box {background:#2478FF; z-index: 99; opacity:1; filter:alpha(opacity=100); border:0px !important; color:#FBEB00;}
+#boxWrapp .menuBar a{color: #000;display: inline-block;   }
+#boxWrapp .menuBar a:hover{color: #000;  opacity:1; filter:alpha(opacity=100); }
+
+
+@media screen and (min-width:200px) and (max-width:669px) {
+#boxWrapp .menuBar{margin:60px 0 20px 0;}
+#boxWrapp .menuBar li a{padding:10px;   font-size:13px;   border-left:1px #DCDCDC solid; margin:2px;}
+}

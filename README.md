@@ -9,3 +9,6 @@
 ### 계정: satcop
 ### 비밀번호: waveon#2022
 ### waveon  homepage
+
+
+## 원래 기존 homepage 소스코드는 [old] 폴더에 존재
