@@ -192,79 +192,90 @@
 </div>
 <ul>
 
+	<li class="e_wrap wow slideInBottom">
+		<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert9.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
+			<img src="/homepage/waveon/pop/cert9.png">
+			<p>웨이브온 인증서<span>중소기업 확인서</span></p>
+		</a>
+	</li>
+		 
+	<li class="e_wrap wow slideInBottom">
+		<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert10.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
+			<img src="/homepage/waveon/pop/cert10.png">
+			<p>웨이브온 인증서<span>창업기업 확인서</span></p>
+		</a>
+	</li>
+	
+	<li class="e_wrap wow slideInBottom">
+		<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert11.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
+			<img src="/homepage/waveon/pop/cert11.png">
+			<p>사업자등록증<span>사업자등록증</span></p>
+		</a>
+	</li>
 
-<li class="e_wrap wow slideInBottom">
-<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert1_1.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
-<img src="/homepage/default/img/ce_4.gif">
-<p>웨이브온 특허<span>동영상 기반 면접 및 이를 통한 취업 중개 장치</span></p>
-</a>
-</li>
+	<li class="e_wrap wow slideInBottom">
+		<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert4.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
+			<img src="/homepage/waveon/pop/cert4.png">
+			<p>웨이브온 출판<span>출판사 신고확인증</span></p>
+		</a>
+	</li>
+
+	<li class="e_wrap wow slideInBottom">
+		<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert1_1.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
+			<!-- <img src="/homepage/default/img/ce_4.gif"> -->
+			<img src="/homepage/waveon/pop/cert1_1.png">
+			<p>웨이브온 특허<span>동영상 기반 면접 및 이를 통한 취업 중개 장치</span></p>
+		</a>
+	</li>
 
 
-<li class="e_wrap wow slideInBottom">
-<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert2_1.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
-<img src="/homepage/default/img/ce_4.gif">
-<p>웨이브온 특허<span>키오스크 주문과 연결된 소비자 행동패턴 분석기반 소비경로 추천시스템</span></p>
-</li>
+	<li class="e_wrap wow slideInBottom">
+		<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert2_1.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
+			<!-- <img src="/homepage/default/img/ce_4.gif"> -->
+			<img src="/homepage/waveon/pop/cert2_1.png">
+			<p>웨이브온 특허<span>키오스크 주문과 연결된 소비자 행동패턴 분석기반 소비경로 추천시스템</span></p>
+		</a>
+	</li>
  
-<li class="e_wrap wow slideInBottom">
-<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert3.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
-<img src="/homepage/default/img/ce_4.gif">
-<p>웨이브온 특허<span>빅데이터 크롤링 기술 기반 특정 분야의 채용정보 메타 검색</span></p>
-</li>
+	<li class="e_wrap wow slideInBottom">
+		<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert3.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
+			<!-- <img src="/homepage/default/img/ce_4.gif"> -->
+			<img src="/homepage/waveon/pop/cert3.png">
+			<p>웨이브온 특허<span>빅데이터 크롤링 기술 기반 특정 분야의 채용정보 메타 검색</span></p>
+		</a>
+	</li>
 
 
-<li class="e_wrap wow slideInBottom">
-<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert4.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
-<img src="/homepage/default/img/ce_4.gif">
-<p>웨이브온 출판<span>출판사 신고확인증</span></p>
-</li>
+	<li class="e_wrap wow slideInBottom">
+		<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert5.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
+			<img src="/homepage/waveon/pop/cert5.png">
+			<p>웨이브온 특허<span>고객안면 인식/고객동작 감지기능 기반 맞춤형 주문/광고/쿠폰 발행</span></p>
+		</a>
+	</li>
 
 
-<li class="e_wrap wow slideInBottom">
-<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert5.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
-<img src="/homepage/default/img/ce_4.gif">
-<p>웨이브온 특허<span>고객안면 인식/고객동작 감지기능 기반 맞춤형 주문/광고/쿠폰 발행</span></p>
-</li>
+	<li class="e_wrap wow slideInBottom">
+		<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert6.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
+			<img src="/homepage/waveon/pop/cert6.png">
+			<p>웨이브온 특허<span>온라인 면접 동영상 분석 및 소셜미디어 정보분석</span></p>
+		</a>
+	</li>
 
 
-<li class="e_wrap wow slideInBottom">
-<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert6.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
-<img src="/homepage/default/img/ce_4.gif">
-<p>웨이브온 특허<span>온라인 면접 동영상 분석 및 소셜미디어 정보분석</span></p>
-</li>
+	<li class="e_wrap wow slideInBottom">
+		<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert7.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
+			<img src="/homepage/waveon/pop/cert7.png">
+			<p>웨이브온 특허<span>AI 스마트딜 인력매칭을 위한 장치 및 방법</span></p>
+		</a>
+	</li>
 
 
-<li class="e_wrap wow slideInBottom">
-<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert7.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
-<img src="/homepage/default/img/ce_4.gif">
-<p>웨이브온 특허<span>AI 스마트딜 인력매칭을 위한 장치 및 방법</span></p>
-</li>
-
-
-<li class="e_wrap wow slideInBottom">
-<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert8.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
-<img src="/homepage/default/img/ce_4.gif">
-<p>웨이브온 특허<span>이력서와 자기소개서의 키워드를 분석하여 채용정보에 활용</span></p>
-</li>
-
-<li class="e_wrap wow slideInBottom">
-<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert9.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
-<img src="/homepage/default/img/ce_4.gif">
-<p>웨이브온 인증서<span>중소기업 확인서</span></p>
-</li>
- 
-<li class="e_wrap wow slideInBottom">
-<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert10.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
-<img src="/homepage/default/img/ce_4.gif">
-<p>웨이브온 인증서<span>창업기업 확인서</span></p>
-</li>
-
-<li class="e_wrap wow slideInBottom">
-<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert11.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
-<img src="/homepage/default/img/ce_4.gif">
-<p>사업자등록증<span>사업자등록증</span></p>
-</li>
+	<li class="e_wrap wow slideInBottom">
+		<a href="javascript_:;" onclick="window.open('/homepage/default/pop/pop.php?img=cert8.png','팝업','width=600,height=720,scrollbars=no,left=100,top=100');return false">
+			<img src="/homepage/waveon/pop/cert8.png">
+			<p>웨이브온 특허<span>이력서와 자기소개서의 키워드를 분석하여 채용정보에 활용</span></p>
+		</a>
+	</li>
 
 </ul>
 </div>

@@ -32,3 +32,12 @@ img.btn_next.logo { width:100%; height:100%; object-fit: contain; }
   .history #section0 .inner .history_box .list_box .history_list li dl p + p{padding-top: 5px;}
   .history #section0 .inner .history_box .list_box .history_list li dl p + dd{padding-top: 5px;}
 }
+
+/**
+인증서
+**/
+
+.certificate ul li {height:350px;}
+
+.contArea img {height:80%; object-fit: contain;}
+

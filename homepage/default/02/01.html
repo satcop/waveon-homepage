@@ -227,10 +227,10 @@
 	</dt>
 	<dd class="fR">
 	<h4><span>03</span> 
-		AI 기반 상업용 매물 분석 플랫폼
+		AI 기반 점포 매물 분석 플랫폼
 	</h4>
 	<p class="d_t01">
-		AI 기반 상업용 매물 분석 솔루션 ARAS-C
+		AI 기반 점포 매물 분석 솔루션 ARAS-C
 	</p>
 	<p class="d_t02">
 		ARAS-C(AI based Realty Analysis Solution-Commercial)는 AI기술을 적용하여 다양한 부동산 플랫폼에 매물로 등록되는 

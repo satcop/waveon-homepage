@@ -117,11 +117,11 @@ background:url(../../img/list_line_left.gif) 0 0 no-repeat}
 .certificate ul {max-width:1200px; margin:20px auto; text-align:center;}
 .certificate ul li {display:inline-block; width:220px; vertical-align:top; margin:0 20px 40px 20px; border:1px solid #DEDEDE; }
 .certificate ul li a,.certificate ul li a p {-moz-transition:all 0.5s;-webkit-transition:all 0.5s;transition:all 0.5s;}
-.certificate ul li a:hover {display:inline-block; width:220px; box-shadow: -60px 0px 80px -90px #000000, 60px 0px 80px -90px #000000;}
+/* .certificate ul li a:hover {display:inline-block; width:220px; box-shadow: -60px 0px 80px -90px #000000, 60px 0px 80px -90px #000000;} */
 .certificate ul li p  {display:block; border-top:1px solid #DFDFDFE;  padding-top:15px; line-height:120%; text-align:center; color:#000; font-weight:600; font-size:15px;}
 .certificate ul li p  span {display:block; line-height:120%; padding:5px 0 15px 0; font-size:11px; color:#898989;}
-.certificate ul li a:hover p {background:#2478FF; color:#fff;}
-.certificate ul li a:hover p span  {color:#fff;} 
+/* .certificate ul li a:hover p {background:#2478FF; color:#fff;}
+.certificate ul li a:hover p span  {color:#fff;}  */
 @media screen and (max-width:1200px) {
 .certificate_txt {width:90%; margin:0 5%;}
 .certificate_txt {font-size:11px;}
