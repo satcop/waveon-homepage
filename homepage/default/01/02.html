@@ -192,7 +192,7 @@
 											<div class="now_box  wow slideInTop">
 												<!-- <div class="img_w"><img src="/homepage/default/img/now_img.gif" alt="현재"></div>
 												<div class="img_s"><img src="/homepage/default/img/now_img_mo.gif" alt="현재"></div> -->
-												<div class="img_w"><img src="/homepage/waveon/now_img.png" alt="현재"></div>
+												<div class="img_w"><img src="/homepage/waveon/now_img_resize.jpeg" alt="현재"></div>
 												<div class="img_s"><img src="/homepage/waveon/now_img_mo.jpeg" alt="현재"></div>
 											</div>
 											<ol class="history_list">

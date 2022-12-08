@@ -228,7 +228,7 @@ border:none; bottom:0px; }
 
 
 /* ¹è³Ê:: À¥ÆÑÅä¸®´Â? µ¿±×¶õ ¹è³Ê ³×°³ */
-.about {width:100%; position:relative; background:#2478FF url(../../img/about_img.jpg) no-repeat 0 bottom; padding:150px 0; background-size:cover; overflow:hidden; }
+.about {width:100%; position:relative; background:#2478FF url(../../../waveon/back_img.jpeg) no-repeat 0 bottom; padding:150px 0; background-size:cover; overflow:hidden; }
 .about .about_top {max-width:1260px; text-align:left; margin:0 auto;  text-align:center; }
 .about .about_top h3 {font-size:50px; display:inline-block; font-family: 'GmarketSansBold'; font-weight:600;  margin:10px 0; padding-top:15px; line-height:100%; color:#fff; background:url(../../img/about_mark.png) no-repeat 0 0; background-size:65px; padding-left:75px; }
 .about .about_top  p { font-family: 'GmarketSansMedium'; padding-top:5px; font-size:17px; color: #fff; display:block;  }

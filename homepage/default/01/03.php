@@ -25,7 +25,7 @@
 		<link rel="stylesheet" href="/homepage/default/inc/css/layout.css" media="all">
 		<link rel="stylesheet" href="/homepage/default/inc/css/board.css" media="all">
 		<link rel="stylesheet" href="/homepage/default/inc/css/submenu.css" media="all">
-		<link rel="stylesheet" href="/homepage/default/inc/css/dev.css" media="all">
+		<link rel="stylesheet" href="/homepage/default/inc/css/dev.css?v=1" media="all">
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
