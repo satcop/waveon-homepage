@@ -77,7 +77,7 @@
 				<div class="overlay-close">Close</div>
 				<div class="listBox">
 					<ul>
-						<li><a class="link" href="/homepage/index.php">홈으로</a></li>
+						<li><a class="link" href="/homepage/index.html">홈으로</a></li>
 						<li><a class="link" href="/homepage/default/01/01.html?topmenu=1&amp;left=1">ABOUT WAVEON</a></li>
 						<li><a class="link" href="/homepage/default/02/01.html?topmenu=2&amp;left=1">OUR BUSINESS</a></li>
 						<!-- <li><a class="link" href="/homepage/default/03/01.html?topmenu=3&amp;left=1">PORTFOLIO</a></li> -->
@@ -90,7 +90,7 @@
 			<!--로고 및 sns 버튼-->
 			<div id="header" class="hide">
 				<h1>
-					<a href="/homepage/index.php">
+					<a href="/homepage/index.html">
 						<img src="/homepage/waveon/logo_en_origin.png" alt="logo" class="btn_next logo" />
 					</a>
 				</h1>
