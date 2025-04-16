@@ -78,11 +78,11 @@
 				<div class="listBox">
 					<ul>
 						<li><a class="link" href="/homepage/index.php">홈으로</a></li>
-						<li><a class="link" href="/homepage/default/01/01.php?topmenu=1&amp;left=1">ABOUT WAVEON</a></li>
-						<li><a class="link" href="/homepage/default/02/01.php?topmenu=2&amp;left=1">OUR BUSINESS</a></li>
-						<!-- <li><a class="link" href="/homepage/default/03/01.php?topmenu=3&amp;left=1">PORTFOLIO</a></li> -->
-						<li><a class="link" href="/homepage/default/04/01.php?topmenu=4&amp;left=1">OUR TEAM</a></li>
-						<li><a class="link" href="/homepage/default/05/01.php?topmenu=5&amp;left=1">CONTACT US</a></li>
+						<li><a class="link" href="/homepage/default/01/01.html?topmenu=1&amp;left=1">ABOUT WAVEON</a></li>
+						<li><a class="link" href="/homepage/default/02/01.html?topmenu=2&amp;left=1">OUR BUSINESS</a></li>
+						<!-- <li><a class="link" href="/homepage/default/03/01.html?topmenu=3&amp;left=1">PORTFOLIO</a></li> -->
+						<li><a class="link" href="/homepage/default/04/01.html?topmenu=4&amp;left=1">OUR TEAM</a></li>
+						<li><a class="link" href="/homepage/default/05/01.html?topmenu=5&amp;left=1">CONTACT US</a></li>
 					</ul>
 				</div>
 			</div>
@@ -99,9 +99,9 @@
 				<!-- 상단메뉴 :: pcq에만 출력 / 모바일버전에서 숨김 :: 상단메뉴 마우스 오버시 나오는 하위메뉴는 공통모듈의 각 서브메뉴에서 수정-->
 				<div class="pc_menu">
 					<ul>
-						<li><a class="link" href="/homepage/default/01/01.php?topmenu=1&amp;left=1">ABOUT WAVEON</a>
+						<li><a class="link" href="/homepage/default/01/01.html?topmenu=1&amp;left=1">ABOUT WAVEON</a>
 							<ul>
-								<li><a href="#" onclick="javascript:location.href='/homepage/default/01/01.php?topmenu=1&amp;left=1'"
+								<li><a href="#" onclick="javascript:location.href='/homepage/default/01/01.html?topmenu=1&amp;left=1'"
 										class="on_box">
 										인사말
 									</a></li>
@@ -119,10 +119,10 @@
 									</a></li>
 							</ul>
 						</li>
-						<li><a class="link" href="/homepage/default/02/01.php?topmenu=2&amp;left=1">OUR BUSINESS</a></li>
-						<!-- <li><a class="link" href="/homepage/default/03/01.php?topmenu=3&amp;left=1">PORTFOLIO</a></li> -->
-						<li><a class="link" href="/homepage/default/04/01.php?topmenu=4&amp;left=1">OUR TEAM</a></li>
-						<li><a class="link" href="/homepage/default/05/01.php?topmenu=5&amp;left=1">CONTACT US</a></li>
+						<li><a class="link" href="/homepage/default/02/01.html?topmenu=2&amp;left=1">OUR BUSINESS</a></li>
+						<!-- <li><a class="link" href="/homepage/default/03/01.html?topmenu=3&amp;left=1">PORTFOLIO</a></li> -->
+						<li><a class="link" href="/homepage/default/04/01.html?topmenu=4&amp;left=1">OUR TEAM</a></li>
+						<li><a class="link" href="/homepage/default/05/01.html?topmenu=5&amp;left=1">CONTACT US</a></li>
 					</ul>
 				</div>
 
