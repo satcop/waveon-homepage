@@ -105,15 +105,15 @@
 										class="on_box">
 										인사말
 									</a></li>
-								<li><a href="#" onclick="javascript:location.href='/homepage/default/01/04.php?topmenu=1&amp;left=4'"
+								<li><a href="#" onclick="javascript:location.href='/homepage/default/01/04.html?topmenu=1&amp;left=4'"
 										class="on_box">
 										비전과 미션
 									</a></li>
-								<li><a href="#" onclick="javascript:location.href='/homepage/default/01/02.php?topmenu=1&amp;left=2'"
+								<li><a href="#" onclick="javascript:location.href='/homepage/default/01/02.html?topmenu=1&amp;left=2'"
 										class="on_box">
 										연혁
 									</a></li>
-								<li><a href="#" onclick="javascript:location.href='/homepage/default/01/03.php?topmenu=1&amp;left=3'"
+								<li><a href="#" onclick="javascript:location.href='/homepage/default/01/03.html?topmenu=1&amp;left=3'"
 										class="on_box">
 										인증서
 									</a></li>
