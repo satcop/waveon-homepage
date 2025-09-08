@@ -800,7 +800,8 @@ header, footer, section, article, aside, nav, hgroup, details, menu, figure, fig
 #header .pc_menu ul li a {
     font-size: 18px;
     text-align: center;
-    font-weight: 500;
+    /*font-weight: 500;*/
+    font-weight: bold;
     letter-spacing: 0;
     display: inline-block;
     position: relative;
