@@ -1,3 +1,11 @@
+
+@font-face { font-family: 'NanumBarunGothic';
+src: url('/homepage/default/inc/fonts/NanumBarunGothic.eot');
+src: url('/homepage/default/inc/fonts/NanumBarunGothic.eot') format('embedded-opentype'),
+url('/homepage/default/inc/fonts/NanumBarunGothic.woff') format('woff');}
+
+
+
 /* ·¹ÀÌ¾Æ¿ô ¸®½ºÆ®
 1.ÆùÆ®¿Í ±âº» ¼ÂÆÃ
 2.»ó´Ü(Çì´õ)¸Þ´º
@@ -72,8 +80,20 @@ url("../../img/font/NotoSans-Bold.otf") format("opentype");font-weight:400;font-
 
 /* CSS reset */
 html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small,
-strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,figure,button
-{margin:0;padding:0;border:0;vertical-align:baseline; font-family: "Noto Sans KR"; font-weight:400; letter-spacing:-0.02em; list-style:none; font-size:13px; line-height:160%; color:#433E3A; }
+strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,figure,button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family: "NanumBarunGothic", serif;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    list-style: none;
+    font-size: 13px;
+    line-height: 160%;
+    color: #433E3A;
+}
+
 body{  *word-break:break-all;-ms-word-break:break-all; -webkit-text-size-adjust:none; word-break:keep-all; width:100%; height:100%; min-width:320px; background-color:#fff;}
  img,fieldset,iframe{border:0 none}
 li{list-style:none}
