@@ -38,10 +38,10 @@
 .slides .box h2{   vertical-align:top; display:block; width:100%;}
 .slides .box h2:after {content:"";display:block;clear:both;}
 .slides .box h2 span.txt1,
-.slides .box h2 span.txt2 {font-size:90px; float:left; letter-spacing:0; color:#FFF; font-weight:900;   text-shadow:3px 3px 3px 1px rgba(0,0,0,0.2); line-height:100%; font-family: 'Audiowide', cursive;vertical-align:top; }
+.slides .box h2 span.txt2 {font-size:90px; float:left; letter-spacing:0; color:#FFF; font-weight:900;   text-shadow:3px 3px 3px 1px rgba(0,0,0,0.2); line-height:100%; font-family: 'NanumBarunGothic', cursive;vertical-align:top; }
 .slides .box h2 span.txt2 {; display:block; width:100%;}
-.slides .box h3 {font-size:23px;color:#fff; display:inline-block; background:#01A1EB; line-height:90%; padding:5px 3px 0px 3px; margin:30px 0;font-family: 'GmarketSansMedium'; }
-.slides .box p span {font-size:19px; color:#000; font-family: 'GmarketSansMedium'; display:block; opacity:0.7;}
+.slides .box h3 {font-size:23px;color:#fff; display:inline-block; background:#01A1EB; line-height:90%; padding:5px 3px 0px 3px; margin:30px 0;font-family: 'NanumBarunGothic'; }
+.slides .box p span {font-size:19px; color:#000; font-family: 'NanumBarunGothic'; display:block; opacity:0.7;}
 
 
 /* È¸ÀüÇÏ´Â Áö±¸ÀÌ¹ÌÁö O */
@@ -132,8 +132,8 @@ animation:rotate 10s linear infinite; -moz-animation:rotate 10s linear infinite;
 
 /* ---- °¢ ¹è³Ê Å¸ÀÌÆ² ºÎºÐ---- */
 .top_tit {z-index:10;}
-.top_tit  h2{color:#2478FF; font-size:35px;   font-family: 'GmarketSansBold'; }
-.top_tit .subText  {color:#000; font-size:16px;    font-family: 'GmarketSansMedium';   width:90%; margin:0 auto;  padding-top:10px;}
+.top_tit  h2{color:#2478FF; font-size:35px;   font-family: 'NanumBarunGothic'; }
+.top_tit .subText  {color:#000; font-size:16px;    font-family: 'NanumBarunGothic';   width:90%; margin:0 auto;  padding-top:10px;}
 @media screen  and (max-width:767px) {
 .top_tit  h2{ font-size:25px; line-height:120%;  }
 .top_tit .subText   {font-size:13px;  }
@@ -193,8 +193,8 @@ border:none; bottom:0px; }
 .txt_bg > div {  position:absolute; height:80px; width:3600px; font-size:0; }  
 .txt_bg .inner { width:1800px; top:0; display:inline-block; }
 .txt_bg .txt_top .inner { right:0; }
-.txt_bg .inner span { display:inline-block; vertical-align:middle; position:relative; font-size:80px;  color:#2478FF; font-family: 'Tourney', 'GmarketSansBold', cursive;  letter-spacing:0.01em;}
-.txt_bg_gray { z-index:11; position:absolute; top:20%; width:1000px;  right:50%; margin:0 -500px 0 0;  font-size:220px; color:#E2E0E0; font-family: 'Tourney', 'GmarketSansBold', cursive;}
+.txt_bg .inner span { display:inline-block; vertical-align:middle; position:relative; font-size:80px;  color:#2478FF; font-family: 'NanumBarunGothic', cursive;  letter-spacing:0.01em;}
+.txt_bg_gray { z-index:11; position:absolute; top:20%; width:1000px;  right:50%; margin:0 -500px 0 0;  font-size:220px; color:#E2E0E0; font-family: 'NanumBarunGothic', cursive;}
 
 
 @media screen  and (min-width:1260px) {
@@ -230,9 +230,9 @@ border:none; bottom:0px; }
 /* ¹è³Ê:: À¥ÆÑÅä¸®´Â? µ¿±×¶õ ¹è³Ê ³×°³ */
 .about {width:100%; position:relative; background:#2478FF url(../../../waveon/back_img.jpeg) no-repeat 0 bottom; padding:150px 0; background-size:cover; overflow:hidden; }
 .about .about_top {max-width:1260px; text-align:left; margin:0 auto;  text-align:center; }
-.about .about_top h3 {font-size:50px; display:inline-block; font-family: 'GmarketSansBold'; font-weight:600;  margin:10px 0; padding-top:15px; line-height:100%; color:#fff; background:url(../../img/about_mark.png) no-repeat 0 0; background-size:65px; padding-left:75px; }
-.about .about_top  p { font-family: 'GmarketSansMedium'; padding-top:5px; font-size:17px; color: #fff; display:block;  }
-.about .about_top  p span { font-family: 'GmarketSansMedium';  opacity:0.8; font-size:17px; color: #fff; } 
+.about .about_top h3 {font-size:50px; display:inline-block; font-family: 'NanumBarunGothic'; font-weight:600;  margin:10px 0; padding-top:15px; line-height:100%; color:#fff; background:url(../../img/about_mark.png) no-repeat 0 0; background-size:65px; padding-left:75px; }
+.about .about_top  p { font-family: 'NanumBarunGothic'; padding-top:5px; font-size:17px; color: #fff; display:block;  }
+.about .about_top  p span { font-family: 'NanumBarunGothic';  opacity:0.8; font-size:17px; color: #fff; }
  
 @media screen  and (max-width:1000px) {
 .about {padding:80px 0;}
@@ -260,8 +260,8 @@ border:none; bottom:0px; }
 .container01 .box01 ul li a:hover .mb_02,
 .container01 .box01 ul li a:hover .mb_03,
 .container01 .box01 ul li a:hover .mb_04 {opacity:0.3;}
-.container01 .box01 ul li a div h3 {position:absolute; z-index:100;  top:40%; width:100%; text-align:center; font-size:21px; font-family: 'GmarketSansMedium';   -moz-transition:all 0.5s;-webkit-transition:all 0.5s;transition:all 0.5s;   color:#fff;  }
-.container01 .box01 ul li a div h3 span {background:url(../../img/h_line_b.gif) no-repeat center 0; font-size:14px; font-family: 'GmarketSansMedium';  color: #19CFC0; padding-top:10px; margin-top:7px;   font-weight:400;  display:block;}
+.container01 .box01 ul li a div h3 {position:absolute; z-index:100;  top:40%; width:100%; text-align:center; font-size:21px; font-family: 'NanumBarunGothic';   -moz-transition:all 0.5s;-webkit-transition:all 0.5s;transition:all 0.5s;   color:#fff;  }
+.container01 .box01 ul li a div h3 span {background:url(../../img/h_line_b.gif) no-repeat center 0; font-size:14px; font-family: 'NanumBarunGothic';  color: #19CFC0; padding-top:10px; margin-top:7px;   font-weight:400;  display:block;}
 .container01 .box01 ul li a:hover div h3 span {color:#2478FF;}
 .container01 .box01 ul li a:hover div h3 {top:42%; }
 .container01 .box01 ul li a p{ margin-top:20px;}
@@ -387,7 +387,7 @@ animation:motion3 5s linear infinite; -moz-animation:motion3 5s linear infinite;
 .mfp-align-top .mfp-container:before {  display: none; }
 .mfp-content {position: relative;  display: inline-block;  vertical-align: middle;  margin: 0 auto;text-align: left;  z-index: 1045; }
 .mfp-close{overflow: visible;cursor: pointer;background: transparent;border: 0; -webkit-appearance: none; display: block; outline: none; padding: 0; z-index: 1046; box-shadow: none; touch-action: manipulation; }
-.mfp-close {width: 44px; height: 44px; line-height: 44px;position: absolute;right: 0;top: 0; text-decoration: none;text-align: center;opacity: 0.65;padding: 0 0 18px 10px; color: #FFF; font-style: normal;font-size: 28px; font-family: Arial, Baskerville, monospace; }
+.mfp-close {width: 44px; height: 44px; line-height: 44px;position: absolute;right: 0;top: 0; text-decoration: none;text-align: center;opacity: 0.65;padding: 0 0 18px 10px; color: #FFF; font-style: normal;font-size: 28px; font-family: 'NanumBarunGothic'; }
 .mfp-close:hover,
 .mfp-close:focus { opacity: 1; }
 .mfp-close:active { top: 1px; }
@@ -447,7 +447,7 @@ animation:rotate 5s linear infinite; -moz-animation:rotate 5s linear infinite; -
 .board_list .board_output tr td  {text-align:right; font-size:15px; letter-spacing:0.05em; color:#fff;}
 .board_list .board_output  .bd_out1  {text-align:left; padding:5px 0;}
 .board_list .board_output  .bd_out1 a {color:#fff; }
-.board_list .board_output .bd_out1 a {font-family:"NotoSansKR"; font-size:15px; letter-spacing:0.02em;}
+.board_list .board_output .bd_out1 a {font-family:"NanumBarunGothic"; font-size:15px; letter-spacing:0.02em;}
 
 
 
@@ -464,7 +464,7 @@ animation:rotate 5s linear infinite; -moz-animation:rotate 5s linear infinite; -
 .m_count ul li dl.count_3 {background:url(../../img/mcount_3.png) no-repeat 0 2px; }
 .m_count ul li dl.count_4 {background:url(../../img/mcount_4.png) no-repeat 0 2px; }
 .m_count ul li dl dt {color:#fff;}
-.m_count ul li dl dd b.counter {color:#fff; font-family: 'GmarketSansBold'; font-size:37px;  padding:top:10px;  letter-spacing:0.05em;}
+.m_count ul li dl dd b.counter {color:#fff; font-family: 'NanumBarunGothic'; font-size:37px;  padding:top:10px;  letter-spacing:0.05em;}
 @media screen  and (max-width:1360px) {
 .board_list .board_output tr td,
 .board_list .board_output .bd_out1 a {font-size:13px; letter-spacing:0;}
