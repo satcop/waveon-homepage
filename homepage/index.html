@@ -9,7 +9,7 @@
   <meta property="og:site_name" content="WAVEON 웨이브온">
   <meta property="og:title" content="WAVEON 웨이브온">
   <meta property="og:description" content="웨이브온은 우리의 생활을 스마트하게 바꿀 IT 기술을 연구하고 다양한 플랫폼 서비스를 직접 개발하여 제공하는 플랫폼 전문 기업입니다.">
-  <meta name="theme-color" content="#0b1630">
+  <meta name="theme-color" content="#05070f">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -17,19 +17,19 @@
 <body>
   <a class="skip-link" href="#main">본문 바로가기</a>
 
-  <header class="header header--transparent">
-    <div class="container">
-      <a class="logo" href="index.html" aria-label="WAVEON 홈"><img src="assets/img/logo.png" alt="WAVEON" width="150" height="26"></a>
+  <header class="header">
+    <div class="header__bar">
+      <a class="logo" href="index.html" aria-label="WAVEON 홈"><img src="assets/img/logo.png" alt="WAVEON" width="138" height="24"></a>
       <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
       <nav class="nav" id="nav" aria-label="주 메뉴">
         <ul class="gnb">
           <li>
             <a href="about.html">ABOUT</a>
             <ul class="sub-menu">
-            <li><a href="about.html">인사말</a></li>
-            <li><a href="vision.html">비전과 미션</a></li>
-            <li><a href="history.html">연혁</a></li>
-            <li><a href="certificates.html">인증서</a></li>
+              <li><a href="about.html">인사말</a></li>
+              <li><a href="vision.html">비전과 미션</a></li>
+              <li><a href="history.html">연혁</a></li>
+              <li><a href="certificates.html">인증서</a></li>
             </ul>
           </li>
           <li><a href="business.html">BUSINESS</a></li>
@@ -42,163 +42,186 @@
 
   <main id="main">
     <section class="hero">
-      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+      <div class="hero__floor" aria-hidden="true"></div>
       <div class="container">
-        <p class="hero__kicker reveal"><i></i>Platform &amp; AI Solution Company</p>
+        <p class="hero__kicker reveal"><b>SINCE 2017</b>Platform &amp; AI Solution Company</p>
         <h1 class="hero__title reveal" data-delay="1">
-          <span class="text-gradient">Build for</span>
+          Build for
           <span class="hero__rotator" aria-live="polite">
-            <span>Smart Life.</span>
-            <span>Your Life.</span>
-            <span>a Platform.</span>
-            <span>Changing.</span>
+            <span class="grad-text">Smart Life.</span>
+            <span class="grad-text">Your Life.</span>
+            <span class="grad-text">a Platform.</span>
+            <span class="grad-text">Tomorrow.</span>
           </span>
         </h1>
         <p class="hero__desc reveal" data-delay="2">우리의 생활을 스마트하게 만드는 솔루션 기업, 웨이브온.<br>사용자 중심의 플랫폼과 AI 기술로 일상을 더 편리하게 바꿉니다.</p>
         <div class="hero__actions reveal" data-delay="3">
           <a class="btn btn--primary" href="business.html">사업 소개 보기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-          <a class="btn btn--ghost" href="contact.html">문의하기</a>
+          <a class="btn btn--ghost" href="contact.html">프로젝트 문의</a>
         </div>
-      </div>
-    <div class="hero__waves" aria-hidden="true">
-      <svg class="w1" viewBox="0 0 2880 220" preserveAspectRatio="none"><path fill="#5b95c3" d="M0 120c240-60 480-60 720 0s480 60 720 0 480-60 720 0 480 60 720 0v100H0z"/></svg>
-      <svg class="w2" viewBox="0 0 2880 220" preserveAspectRatio="none"><path fill="#ffffff" d="M0 150c180-50 360-50 540 0s360 50 540 0 360-50 540 0 360 50 540 0 360-50 540 0 180 25 180 25v45H0z"/></svg>
-      <svg class="w3" viewBox="0 0 2880 220" preserveAspectRatio="none"><path fill="#ffffff" d="M0 180c240-30 480-30 720 0s480 30 720 0 480-30 720 0 480 30 720 0v40H0z"/></svg>
-    </div>
-      <span class="hero__scroll" aria-hidden="true">SCROLL</span>
-    </section>
-
-    <section class="section">
-      <div class="container intro">
-        <div class="intro__media reveal">
-          <img src="assets/img/about.jpg" alt="웨이브온 업무 환경" width="1600" height="831" loading="lazy">
-          <div class="intro__badge"><strong>Since 2017</strong><span>플랫폼 전문 기업</span></div>
-        </div>
-        <div class="intro__text">
-          <span class="eyebrow reveal">About Waveon</span>
-          <h2 class="section-title reveal" data-delay="1">생활을 바꾸는 기술,<br>누구나 쉽게 쓰는 플랫폼</h2>
-          <p class="lead reveal" data-delay="2" style="margin-top:24px">웨이브온은 우리의 생활을 스마트하게 바꿀 IT 기술을 연구하고, 그와 연계된 다양한 서비스를 직접 개발하여 제공하는 플랫폼 전문 기업입니다.</p>
-          <p class="reveal" data-delay="2">사용자의 편의성은 물론, 개발자가 아니더라도 누구나 손쉽게 관리할 수 있는 플랫폼 서비스를 제공합니다.</p>
-          <div class="stats reveal" data-delay="3">
-            <div class="stat"><strong>2017</strong><span>설립</span></div>
-            <div class="stat"><strong><span data-count="7">7</span><small>건</small></strong><span>특허 출원</span></div>
-            <div class="stat"><strong><span data-count="4">4</span><small>회</small></strong><span>중기부 R&amp;D 과제 선정</span></div>
-          </div>
-          <a class="btn btn--dark reveal" data-delay="4" href="about.html" style="margin-top:40px">회사 소개 더보기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <div class="hero-stats reveal" data-delay="4">
+          <div><strong>2017</strong><span>설립</span></div>
+          <div><strong><span data-count="7">7</span><small>건</small></strong><span>특허 출원</span></div>
+          <div><strong><span data-count="4">4</span><small>회</small></strong><span>중기부 R&amp;D 과제 선정</span></div>
+          <div><strong><span data-count="3">3</span><small>개</small></strong><span>자체 플랫폼 서비스</span></div>
         </div>
       </div>
     </section>
 
-    <section class="section section--dark">
+    <div class="marquee" aria-hidden="true"><div class="marquee__track"><span>AI Matching</span><span>Platform</span><span>Application</span><span>KIOSK</span><span>System Integration</span><span>Big Data</span><span>IT Consulting</span><span>Face Recognition</span><span>AI Matching</span><span>Platform</span><span>Application</span><span>KIOSK</span><span>System Integration</span><span>Big Data</span><span>IT Consulting</span><span>Face Recognition</span></div></div>
+
+    <section class="section section--dark statement">
       <div class="container">
-        <div class="section-head section-head--center">
-          <span class="eyebrow reveal">Business Area</span>
-          <h2 class="section-title reveal" data-delay="1">아이디어에서 운영까지,<br>IT 비즈니스의 모든 과정</h2>
-          <p class="section-desc reveal" data-delay="2">다양한 사업분야의 서비스를 다양한 디바이스를 통해 제공할 수 있도록 구축·운영·컨설팅하며, 미래 사용자들의 경험까지 연구합니다.</p>
+        <span class="eyebrow reveal">Who we are</span>
+        <p class="statement__text" style="margin-top:32px">웨이브온은 우리의 생활을 <em>스마트하게</em> 바꿀 IT 기술을 연구하고, 그와 연계된 서비스를 직접 개발하여 제공하는 <em>플랫폼 전문 기업</em>입니다.</p>
+        <div class="statement__foot reveal">
+          <p>사용자의 편의성은 물론, 개발자가 아니더라도 누구나 손쉽게 관리할 수 있는 플랫폼 서비스를 제공합니다.</p>
+          <a class="link-arrow" href="about.html">회사 소개 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
         </div>
-        <div class="area-grid">
-          <article class="area-card reveal">
-            <span class="area-card__num">01</span>
-            <div class="area-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="8" r="3"/><circle cx="16" cy="16" r="3"/><path d="M10.5 10.5l3 3M3 21c0-2.8 2.2-5 5-5M21 3c0 2.8-2.2 5-5 5"/></svg></div>
-            <h3>Smart Matching Platform</h3>
-            <p>AI 스마트딜 매칭 알고리즘 기반의 인력·생활서비스 매칭 플랫폼</p>
-          </article>
-          <article class="area-card reveal" data-delay="1">
-            <span class="area-card__num">02</span>
-            <div class="area-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8M8 13h5"/></svg></div>
-            <h3>IT Business Consulting</h3>
-            <p>표준 개발방법론을 바탕으로 한 철저한 기획과 타당성 조사</p>
-          </article>
-          <article class="area-card reveal" data-delay="2">
-            <span class="area-card__num">03</span>
-            <div class="area-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6M14 4l-4 16"/></svg></div>
-            <h3>Application Development</h3>
-            <p>웹·모바일·키오스크 애플리케이션과 AI 모듈 개발</p>
-          </article>
-          <article class="area-card reveal" data-delay="3">
-            <span class="area-card__num">04</span>
-            <div class="area-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="7" rx="2"/><rect x="3" y="14" width="18" height="7" rx="2"/><path d="M7 6.5h.01M7 17.5h.01M11 6.5h6M11 17.5h6"/></svg></div>
-            <h3>System Integration</h3>
-            <p>안정적인 시스템 구축과 효율적인 유지보수·사후관리</p>
-          </article>
+      </div>
+    </section>
+
+    <section class="section section--dark has-glow" style="padding-top:40px">
+      <div class="container">
+        <div class="section-head section-head--row">
+          <div>
+            <span class="eyebrow reveal">Capabilities</span>
+            <h2 class="section-title reveal" data-delay="1">아이디어에서 운영까지,<br>IT 비즈니스의 모든 과정</h2>
+          </div>
+          <p class="section-desc reveal" data-delay="2" style="margin-top:0;max-width:440px">다양한 사업분야의 서비스를 구축·운영·컨설팅하며, 미래 사용자들의 경험까지 연구합니다.</p>
         </div>
-        <div class="devices reveal">
-          <span>PC</span><span>Mobile Device</span><span>Wearable Device</span><span>Home Appliance</span><span>KIOSK</span>
+        <div class="bento">
+          <article class="bento__item bento__item--a spot reveal">
+            <div class="bento__media"><img src="assets/img/about.jpg" alt="" loading="lazy"></div>
+            <div class="bento__body">
+              <span class="bento__num">01 — CORE</span>
+              <h3>Smart Matching Platform<small>AI 스마트딜 매칭 알고리즘</small></h3>
+              <p>돌봄 전문인력부터 1인 가구 생활서비스까지, 웨이브온의 AI 매칭 알고리즘이 사람과 서비스를 가장 알맞게 연결합니다.</p>
+              <div class="bento__tags"><span>CareTogether</span><span>우리동네 특공대</span><span>FACEVIEW</span></div>
+            </div>
+          </article>
+          <article class="bento__item bento__item--b spot reveal" data-delay="1">
+            <div class="bento__head"><div class="bento__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8M8 13h5"/></svg></div><span class="bento__num">02</span></div>
+            <div><h3>IT Business Consulting</h3><p>표준 개발방법론에 기반한 철저한 기획과 타당성 조사</p></div>
+          </article>
+          <article class="bento__item bento__item--c spot reveal" data-delay="2">
+            <div class="bento__head"><div class="bento__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6M14 4l-4 16"/></svg></div><span class="bento__num">03</span></div>
+            <div><h3>Application Development</h3><p>웹·모바일·키오스크 애플리케이션과 AI 모듈 개발</p></div>
+          </article>
+          <article class="bento__item bento__item--d spot reveal">
+            <div class="bento__head"><div class="bento__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="7" rx="2"/><rect x="3" y="14" width="18" height="7" rx="2"/><path d="M7 6.5h.01M7 17.5h.01M11 6.5h6M11 17.5h6"/></svg></div><span class="bento__num">04</span></div>
+            <div><h3>System Integration</h3><p>안정적인 시스템 구축부터 효율적인 유지보수·사후관리까지</p></div>
+          </article>
+          <article class="bento__item bento__item--e spot reveal" data-delay="1">
+            <div class="bento__head"><div class="bento__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="5" width="14" height="14" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v3M15 2v3M9 19v3M15 19v3M2 9h3M2 15h3M19 9h3M19 15h3"/></svg></div><span class="bento__num">05</span></div>
+            <div>
+              <h3>Any Device, Any Life</h3>
+              <div class="bento__devices"><span>PC</span><span>Mobile</span><span>Wearable</span><span>Home Appliance</span><span>KIOSK</span></div>
+            </div>
+          </article>
         </div>
       </div>
     </section>
 
     <section class="section section--soft">
       <div class="container">
-        <div class="section-head">
-          <span class="eyebrow reveal">Our Services</span>
-          <h2 class="section-title reveal" data-delay="1">웨이브온이 만드는 서비스</h2>
+        <div class="section-head section-head--row">
+          <div>
+            <span class="eyebrow reveal">Our Services</span>
+            <h2 class="section-title reveal" data-delay="1">웨이브온이 만드는 서비스</h2>
+          </div>
+          <a class="link-arrow reveal" href="business.html">전체 사업 보기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
         </div>
-        <div class="service-list">
-          <article class="service reveal">
-            <div class="service__media"><img src="assets/img/biz-caretogether.jpg" alt="CareTogether 서비스 화면" loading="lazy"></div>
-            <div class="service__body">
-              <span class="service__tag">스마트 돌봄 매칭</span>
+        <div class="stack">
+          <article class="stack-card" style="--i:0">
+            <div class="stack-card__body">
+              <div class="stack-card__top"><span class="stack-card__num">01 / 03</span><span class="stack-card__tag">스마트 돌봄 매칭</span></div>
               <h3><small>스마트 돌봄 전문인력 매칭 플랫폼</small>CareTogether</h3>
-              <p>돌봄이 필요한 환자와 보호자가 간병인·요양보호사 등 돌봄 전문인력과 믿고 편하게 매칭할 수 있도록, 웨이브온의 AI 스마트딜 매칭 알고리즘을 적용한 서비스 플랫폼입니다.</p>
+              <p>돌봄이 필요한 환자와 보호자가 간병인·요양보호사 등 돌봄 전문인력과 믿고 편하게 매칭할 수 있도록, AI 스마트딜 매칭 알고리즘을 적용한 서비스 플랫폼입니다.</p>
             </div>
+            <div class="stack-card__media"><img src="assets/img/biz-caretogether.jpg" alt="CareTogether 서비스 화면" loading="lazy"></div>
           </article>
-          <article class="service reveal">
-            <div class="service__media"><img src="assets/img/biz-udt.jpg" alt="우리동네 특공대 UDT 로고" loading="lazy"></div>
-            <div class="service__body">
-              <span class="service__tag">생활서비스 매칭</span>
+          <article class="stack-card" style="--i:1">
+            <div class="stack-card__body">
+              <div class="stack-card__top"><span class="stack-card__num">02 / 03</span><span class="stack-card__tag">생활서비스 매칭</span></div>
               <h3><small>1인 가구를 위한 생활서비스 매칭</small>우리동네 특공대 UDT</h3>
-              <p>1인 가구에 필요한 다양한 생활서비스를 자신이 살고 있는 지역을 중심으로 매칭하고 추천하는 서비스 플랫폼입니다.</p>
+              <p>1인 가구 비율이 40%를 넘어선 지금, 1인 가구에 필요한 다양한 생활서비스를 내가 사는 지역을 중심으로 매칭하고 추천합니다.</p>
             </div>
+            <div class="stack-card__media stack-card__media--contain"><img src="assets/img/biz-udt.jpg" alt="우리동네 특공대 UDT 로고" loading="lazy"></div>
           </article>
-          <article class="service reveal">
-            <div class="service__media"><img src="assets/img/biz-aras.jpg" alt="ARAS-C 분석 화면" loading="lazy"></div>
-            <div class="service__body">
-              <span class="service__tag">AI 부동산 분석</span>
+          <article class="stack-card" style="--i:2">
+            <div class="stack-card__body">
+              <div class="stack-card__top"><span class="stack-card__num">03 / 03</span><span class="stack-card__tag">AI 부동산 분석</span></div>
               <h3><small>AI 기반 점포 매물 분석 솔루션</small>ARAS-C</h3>
               <p>부동산 플랫폼에 등록되는 상업용 점포 매물의 가격 적정성과 수익률을 AI로 예측하고, 개별성이 강한 점포에 특화된 리포트를 제공합니다.</p>
             </div>
+            <div class="stack-card__media"><img src="assets/img/biz-aras.jpg" alt="ARAS-C 분석 화면" loading="lazy"></div>
           </article>
         </div>
+      </div>
+    </section>
+
+    <section class="section section--dark has-glow">
+      <div class="bg-grid" aria-hidden="true"></div>
+      <div class="container ip">
+        <div class="ip__aside">
+          <span class="eyebrow reveal">Technology &amp; IP</span>
+          <h2 class="section-title reveal" data-delay="1">기술로 증명하는<br>웨이브온</h2>
+          <div class="ip__big reveal" data-delay="2"><strong class="grad-text"><span data-count="7">7</span></strong><span>건의 특허 출원</span></div>
+          <a class="link-arrow reveal" data-delay="3" href="certificates.html">인증서 전체 보기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+        <ul class="ip__list">
+            <li class="reveal"><a href="certificates.html"><em>01</em><span>동영상 기반 면접 및 이를 통한 취업 중개 장치</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+            <li class="reveal"><a href="certificates.html"><em>02</em><span>키오스크 주문과 연결된 소비자 행동패턴 분석기반 소비경로 추천시스템</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+            <li class="reveal"><a href="certificates.html"><em>03</em><span>빅데이터 크롤링 기술 기반 특정 분야의 채용정보 메타 검색</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+            <li class="reveal"><a href="certificates.html"><em>04</em><span>고객안면 인식/고객동작 감지기능 기반 맞춤형 주문/광고/쿠폰 발행</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+            <li class="reveal"><a href="certificates.html"><em>05</em><span>온라인 면접 동영상 분석 및 소셜미디어 정보분석</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+            <li class="reveal"><a href="certificates.html"><em>06</em><span>AI 스마트딜 인력매칭을 위한 장치 및 방법</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+            <li class="reveal"><a href="certificates.html"><em>07</em><span>이력서와 자기소개서의 키워드를 분석하여 채용정보에 활용</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+        </ul>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <div class="section-head section-head--center">
-          <span class="eyebrow reveal">Vision</span>
-          <h2 class="section-title reveal" data-delay="1">작지만 강한 회사,<br>글로벌 기업을 추구합니다</h2>
-          <p class="section-desc reveal" data-delay="2">고객의 IT 비즈니스 성공을 위해 최고의 기술력으로 최선을 다하여 모두를 만족시키는 회사가 되겠습니다.</p>
-        </div>
-        <div class="value-grid">
-          <div class="value reveal"><div class="value__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.1V17h6v-.2c0-.8.4-1.6 1-2.1A7 7 0 0 0 12 2z"/></svg></div><h3>자유롭고<br>열정적인 회사</h3></div>
-          <div class="value reveal" data-delay="1"><div class="value__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 10v11M2 12v7a2 2 0 0 0 2 2h12.4a2 2 0 0 0 2-1.6l1.4-7A2 2 0 0 0 17.8 10H14V5a3 3 0 0 0-3-3l-4 8"/></svg></div><h3>모두를 만족시키는<br>경영</h3></div>
-          <div class="value reveal" data-delay="2"><div class="value__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg></div><h3>고객 지향적<br>개발</h3></div>
-          <div class="value reveal" data-delay="3"><div class="value__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a4 4 0 0 1-4 4M7 5H4v2a4 4 0 0 0 4 4"/></svg></div><h3>연구개발 및<br>신기술 확보</h3></div>
-          <div class="value reveal" data-delay="4"><div class="value__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg></div><h3>글로벌<br>기업</h3></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" style="padding-top:0">
-      <div class="container">
-        <div class="cta reveal">
+        <div class="section-head section-head--row">
           <div>
-            <h2>새로운 프로젝트를 계획하고 계신가요?</h2>
-            <p>기술력과 경험으로 서비스를 성공적으로 수행합니다.</p>
+            <span class="eyebrow reveal">Milestones</span>
+            <h2 class="section-title reveal" data-delay="1">멈추지 않고 성장해 온 길</h2>
           </div>
-          <a class="btn" href="contact.html">프로젝트 문의 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="link-arrow reveal" href="history.html">전체 연혁 보기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+        <div class="milestones">
+          <div class="ms reveal"><h3 class="ms__year">2022</h3><span class="ms__dot"></span><p>돌봄 매칭 플랫폼 CareTogether 개발</p><p>AI 기반 얼굴인식·영상분석 모듈 개발</p></div>
+          <div class="ms reveal" data-delay="1"><h3 class="ms__year">2021</h3><span class="ms__dot"></span><p>AI 음성인식 모듈 개발</p><p>SBA 기술상용화사업 선정</p></div>
+          <div class="ms reveal" data-delay="2"><h3 class="ms__year">2020</h3><span class="ms__dot"></span><p>지역상권 Smart KIOSK / APP 개발</p></div>
+          <div class="ms reveal" data-delay="3"><h3 class="ms__year">2019</h3><span class="ms__dot"></span><p>AI 면접 분석 플랫폼 FACEVIEW 개발</p></div>
+          <div class="ms reveal" data-delay="4"><h3 class="ms__year">2018</h3><span class="ms__dot"></span><p>서울시 캠퍼스타운 지역상권 활성화 사업 수행</p></div>
+          <div class="ms reveal" data-delay="4"><h3 class="ms__year">2017</h3><span class="ms__dot"></span><p>주식회사 웨이브온 설립</p></div>
+        </div>
+        <div class="partners reveal">
+          <p>WITH</p>
+          <div class="partners__wrap"><div class="marquee__track"><span>중소벤처기업부</span><span>서울산업진흥원(SBA)</span><span>서울시 캠퍼스타운</span><span>G밸리 산학연구회</span><span>서울직업교육거점센터</span><span>기업재생에너지재단</span><span>중소벤처기업부</span><span>서울산업진흥원(SBA)</span><span>서울시 캠퍼스타운</span><span>G밸리 산학연구회</span><span>서울직업교육거점센터</span><span>기업재생에너지재단</span></div></div>
         </div>
       </div>
     </section>
   </main>
 
+  <section class="cta-band">
+    <div class="container">
+      <h2 class="reveal">Let's build<br><span class="grad-text">what's next.</span></h2>
+      <p class="reveal" data-delay="1">새로운 서비스를 구상하고 계신가요? 기술력과 경험으로 성공적으로 완수하겠습니다.</p>
+      <a class="btn btn--white reveal" data-delay="2" href="contact.html">프로젝트 문의하기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </section>
+
   <footer class="footer">
     <div class="container">
       <div class="footer__top">
         <div>
-          <a class="footer__logo" href="index.html"><img src="assets/img/logo.png" alt="WAVEON" width="140" height="24"></a>
-          <p class="footer__slogan">우리의 생활을 스마트하게 만드는 플랫폼 전문 기업</p>
+          <a class="footer__logo" href="index.html"><img src="assets/img/logo.png" alt="WAVEON" width="138" height="24"></a>
+          <p class="footer__slogan">우리의 생활을 스마트하게 만드는<br>플랫폼 &amp; AI 솔루션 기업</p>
         </div>
         <div class="footer__nav">
           <div>
@@ -218,6 +241,13 @@
               <li><a href="contact.html">오시는 길</a></li>
             </ul>
           </div>
+          <div>
+            <h4>CONTACT</h4>
+            <ul>
+              <li><a href="tel:02-2088-5478">02-2088-5478</a></li>
+              <li><a href="mailto:wcyoo@waveon.biz">wcyoo@waveon.biz</a></li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class="footer__info">
@@ -229,6 +259,7 @@
         <p class="copyright">&copy; 2026 WAVEON Co., Ltd. All Rights Reserved.</p>
       </div>
     </div>
+    <div class="footer__mark" aria-hidden="true">WAVEON</div>
   </footer>
 
   <button class="to-top" type="button" aria-label="맨 위로"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>

@@ -9,7 +9,7 @@
   <meta property="og:site_name" content="WAVEON 웨이브온">
   <meta property="og:title" content="오시는 길 | WAVEON 웨이브온">
   <meta property="og:description" content="웨이브온 연락처 및 오시는 길 안내.">
-  <meta name="theme-color" content="#0b1630">
+  <meta name="theme-color" content="#05070f">
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
@@ -17,19 +17,19 @@
 <body>
   <a class="skip-link" href="#main">본문 바로가기</a>
 
-  <header class="header header--transparent">
-    <div class="container">
-      <a class="logo" href="index.html" aria-label="WAVEON 홈"><img src="assets/img/logo.png" alt="WAVEON" width="150" height="26"></a>
+  <header class="header">
+    <div class="header__bar">
+      <a class="logo" href="index.html" aria-label="WAVEON 홈"><img src="assets/img/logo.png" alt="WAVEON" width="138" height="24"></a>
       <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
       <nav class="nav" id="nav" aria-label="주 메뉴">
         <ul class="gnb">
           <li>
             <a href="about.html">ABOUT</a>
             <ul class="sub-menu">
-            <li><a href="about.html">인사말</a></li>
-            <li><a href="vision.html">비전과 미션</a></li>
-            <li><a href="history.html">연혁</a></li>
-            <li><a href="certificates.html">인증서</a></li>
+              <li><a href="about.html">인사말</a></li>
+              <li><a href="vision.html">비전과 미션</a></li>
+              <li><a href="history.html">연혁</a></li>
+              <li><a href="certificates.html">인증서</a></li>
             </ul>
           </li>
           <li><a href="business.html">BUSINESS</a></li>
@@ -42,15 +42,13 @@
 
   <main id="main">
   <section class="page-hero">
+    <div class="aurora" aria-hidden="true"><i></i><i></i><i></i></div>
+    <div class="bg-grid" aria-hidden="true"></div>
     <div class="container">
+      <p class="page-hero__label reveal">CONTACT US</p>
+      <h1 class="page-hero__title reveal" data-delay="1">Let's talk<br><span class="grad-text">about your idea.</span></h1>
+      <p class="page-hero__desc reveal" data-delay="2">웨이브온은 IT 비즈니스에 최적화된 솔루션과 플랫폼을 개발합니다.</p>
       <ul class="breadcrumb"><li><a href="index.html">HOME</a></li><li>CONTACT</li></ul>
-      <h1 class="page-hero__title">Contact Us</h1>
-      <p class="page-hero__desc">웨이브온은 IT 비즈니스에 최적화된 솔루션과 플랫폼을 개발합니다.</p>
-    </div>
-    <div class="hero__waves" aria-hidden="true">
-      <svg class="w1" viewBox="0 0 2880 220" preserveAspectRatio="none"><path fill="#5b95c3" d="M0 120c240-60 480-60 720 0s480 60 720 0 480-60 720 0 480 60 720 0v100H0z"/></svg>
-      <svg class="w2" viewBox="0 0 2880 220" preserveAspectRatio="none"><path fill="#ffffff" d="M0 150c180-50 360-50 540 0s360 50 540 0 360-50 540 0 360 50 540 0 360-50 540 0 180 25 180 25v45H0z"/></svg>
-      <svg class="w3" viewBox="0 0 2880 220" preserveAspectRatio="none"><path fill="#ffffff" d="M0 180c240-30 480-30 720 0s480 30 720 0 480-30 720 0 480 30 720 0v40H0z"/></svg>
     </div>
   </section>
 
@@ -79,8 +77,8 @@
     <div class="container">
       <div class="footer__top">
         <div>
-          <a class="footer__logo" href="index.html"><img src="assets/img/logo.png" alt="WAVEON" width="140" height="24"></a>
-          <p class="footer__slogan">우리의 생활을 스마트하게 만드는 플랫폼 전문 기업</p>
+          <a class="footer__logo" href="index.html"><img src="assets/img/logo.png" alt="WAVEON" width="138" height="24"></a>
+          <p class="footer__slogan">우리의 생활을 스마트하게 만드는<br>플랫폼 &amp; AI 솔루션 기업</p>
         </div>
         <div class="footer__nav">
           <div>
@@ -100,6 +98,13 @@
               <li><a href="contact.html">오시는 길</a></li>
             </ul>
           </div>
+          <div>
+            <h4>CONTACT</h4>
+            <ul>
+              <li><a href="tel:02-2088-5478">02-2088-5478</a></li>
+              <li><a href="mailto:wcyoo@waveon.biz">wcyoo@waveon.biz</a></li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class="footer__info">
@@ -111,6 +116,7 @@
         <p class="copyright">&copy; 2026 WAVEON Co., Ltd. All Rights Reserved.</p>
       </div>
     </div>
+    <div class="footer__mark" aria-hidden="true">WAVEON</div>
   </footer>
 
   <button class="to-top" type="button" aria-label="맨 위로"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>

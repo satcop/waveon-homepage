@@ -51,6 +51,40 @@
     reveals.forEach(function (el) { el.classList.add('is-visible'); });
   }
 
+  /* Spotlight cards: glow follows the pointer */
+  document.querySelectorAll('.spot').forEach(function (el) {
+    el.addEventListener('pointermove', function (e) {
+      var r = el.getBoundingClientRect();
+      el.style.setProperty('--x', (e.clientX - r.left) + 'px');
+      el.style.setProperty('--y', (e.clientY - r.top) + 'px');
+    });
+  });
+
+  /* Statement: words light up as the block scrolls through the viewport */
+  var statement = document.querySelector('.statement__text');
+  if (statement) {
+    var html = '';
+    statement.childNodes.forEach(function (node) {
+      var hl = node.nodeType === 1 && node.tagName === 'EM';
+      node.textContent.split(/(\s+)/).forEach(function (part) {
+        if (!part) return;
+        html += /^\s+$/.test(part) ? part : '<span class="w' + (hl ? ' hl' : '') + '">' + part + '</span>';
+      });
+    });
+    statement.innerHTML = html;
+    var stWords = statement.querySelectorAll('.w');
+    var paint = function () {
+      var r = statement.getBoundingClientRect();
+      var vh = window.innerHeight;
+      var p = (vh * 0.85 - r.top) / (r.height + vh * 0.35);
+      var n = Math.round(Math.max(0, Math.min(1, p)) * stWords.length);
+      for (var i = 0; i < stWords.length; i++) stWords[i].classList.toggle('on', i < n);
+    };
+    window.addEventListener('scroll', paint, { passive: true });
+    window.addEventListener('resize', paint);
+    paint();
+  }
+
   /* Hero word rotator */
   var rotator = document.querySelector('.hero__rotator');
   if (rotator) {
