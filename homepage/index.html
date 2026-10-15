@@ -1,544 +1,238 @@
-<!-- 헤더 START -->
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ko" class="no-js">
 <head>
-	<!-- <meta http-equiv="Content-Type" content="text/html; charset=euc-kr"> -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=2.0">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta charset="UTF-8">
-
-	<!-- 네이버 웹마스터도구 모듈 불러오기 -->
-	<title>웨이브온</title>
-	<meta name="Keywords" content="웨이브온, 주식회사 웨이브온, WAVEON">
-	<meta name="Description" content="우리의 생활을 스마트하게  바꿀 IT 기술을 연구하고 그와 연계된 다양한 서비스를 개발하는 웨이브온">
-	<meta property="og:type" content="website">
-	<meta property="og:title" content="(주)웨이브온">
-	<meta property="og:site_name" content="웨이브온">
-	<meta property="og:description" content="우리의 생활을 스마트하게  바꿀 IT 기술을 연구하고 그와 연계된 다양한 서비스를 개발하는 웨이브온">
-	<!-- <meta property="og:url" content="https://terra-it.co.kr">
-	<meta property="og:image" content="https://terra-it.co.kr/default/img/logo_kakao.gif">
-	<meta property="al:web:url" content="https://terra-it.co.kr">
-	<link rel="canonical" href="https://terra-it.co.kr"> -->
-	<meta property="og:url" content="https://waveon.biz">
-	<meta property="al:web:url" content="https://waveon.biz">
-	<link rel="canonical" href="https://waveon.biz">
-
-	<link rel="stylesheet" href="/homepage/default/inc/css/main.css?v=1" media="all">
-	<link rel="stylesheet" href="/homepage/default/inc/css/sub_contents.css" media="all">
-	<link rel="stylesheet" href="/homepage/default/inc/css/layout.css" media="all">
-	<link rel="stylesheet" href="/homepage/default/inc/css/board.css" media="all">
-	<link rel="stylesheet" href="/homepage/default/inc/css/submenu.css" media="all">
-	<link rel="stylesheet" href="/homepage/default/inc/css/dev.css" media="all">
-	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="/homepage/default/img/js/jquery.easing.1.3.js"></script>
-	<script src="/homepage/default/img/js/jquery.mixitup.min.js"></script>
-	<script src="/homepage/default/img/js/motion.js"></script>
-	<script src="/homepage/default/img/js/nprogress.js"></script>
-	<script type="text/javascript" src="/homepage/default/img/js/wow.min.js"></script>
-	<script type="text/javascript">
-		new WOW({boxClass: 'wow', animateClass: 'animated', offset: 0, mobile: true, live: true}).init(); 
-	</script>
-	<script>
-		$(document).ready(function () {
-			$('.bbsnewf5').removeAttr('width');
-			$('img').removeAttr('style');
-		});
-	</script>
-
-	<!--[if lt IE 9]>
-		<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-		<![endif]-->
-	<!--[if lt IE 8]>
-		<script src="https://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
-		<![endif]-->
-	<!--[if lt IE 7]>
-		<script src="https://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE7.js"></script>
-		<p class="cm-alert-ie">현재 웹브라우저에서는 사이트가 정상적으로 표시되지 않을 수 있습니다. 웹브라우저를 업그레이드 하세요.</p>
-		<![endif]-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WAVEON 웨이브온</title>
+  <meta name="description" content="웨이브온은 우리의 생활을 스마트하게 바꿀 IT 기술을 연구하고 다양한 플랫폼 서비스를 직접 개발하여 제공하는 플랫폼 전문 기업입니다.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="WAVEON 웨이브온">
+  <meta property="og:title" content="WAVEON 웨이브온">
+  <meta property="og:description" content="웨이브온은 우리의 생활을 스마트하게 바꿀 IT 기술을 연구하고 다양한 플랫폼 서비스를 직접 개발하여 제공하는 플랫폼 전문 기업입니다.">
+  <meta name="theme-color" content="#0b1630">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
-	<div class="fade">
-		<!-- 메인 슬라이드 jQuery-->
-		<script type="text/javascript" src="/homepage/default/img/js/main_slide.js"></script>
-		<div id="boxWrapp">
-			<div class="skip">
-				<a href="#content">본문 바로가기</a>
-				<a href="#nav">네비게이션 바로가기</a>
-			</div>
-			<style>
-				.fade {
-					height: 100%;
-				}
-			</style>
+  <a class="skip-link" href="#main">본문 바로가기</a>
 
-			<!-- 우측메뉴 -->
-			<div class="overlay overlay-contentpush">
-				<div class="overlay-close">Close</div>
-				<div class="listBox">
-					<ul>
-						<li><a class="link" href="/homepage/index.html">홈으로</a></li>
-						<li><a class="link" href="/homepage/default/01/01.html?topmenu=1&amp;left=1">ABOUT WAVEON</a></li>
-						<li><a class="link" href="/homepage/default/02/01.html?topmenu=2&amp;left=1">OUR BUSINESS</a></li>
-						<!-- <li><a class="link" href="/homepage/default/03/01.html?topmenu=3&amp;left=1">PORTFOLIO</a></li> -->
-						<li><a class="link" href="/homepage/default/04/01.html?topmenu=4&amp;left=1">OUR TEAM</a></li>
-						<li><a class="link" href="/homepage/default/05/01.html?topmenu=5&amp;left=1">CONTACT US</a></li>
-					</ul>
-				</div>
-			</div>
+  <header class="header header--transparent">
+    <div class="container">
+      <a class="logo" href="index.html" aria-label="WAVEON 홈"><img src="assets/img/logo.png" alt="WAVEON" width="150" height="26"></a>
+      <button class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+      <nav class="nav" id="nav" aria-label="주 메뉴">
+        <ul class="gnb">
+          <li>
+            <a href="about.html">ABOUT</a>
+            <ul class="sub-menu">
+            <li><a href="about.html">인사말</a></li>
+            <li><a href="vision.html">비전과 미션</a></li>
+            <li><a href="history.html">연혁</a></li>
+            <li><a href="certificates.html">인증서</a></li>
+            </ul>
+          </li>
+          <li><a href="business.html">BUSINESS</a></li>
+          <li><a href="team.html">TEAM</a></li>
+          <li><a href="contact.html" class="btn-contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-			<!--로고 및 sns 버튼-->
-			<div id="header" class="hide">
-				<!-- <h1><a href="/homepage/default/"><img src="/homepage/bizdemo128056/img/logo.png" alt="logo" class="btn_next"></a></h1> -->
-				<!-- <h1 style="width:240px; height:80px"> -->
-				<h1>
-					<a href="/homepage/index.html">
-						<img src="/homepage/waveon/logo_en_origin.png" alt="logo" class="btn_next logo" />
-					</a>
-				</h1>
+  <main id="main">
+    <section class="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container">
+        <p class="hero__kicker reveal"><i></i>Platform &amp; AI Solution Company</p>
+        <h1 class="hero__title reveal" data-delay="1">
+          <span class="text-gradient">Build for</span>
+          <span class="hero__rotator" aria-live="polite">
+            <span>Smart Life.</span>
+            <span>Your Life.</span>
+            <span>a Platform.</span>
+            <span>Changing.</span>
+          </span>
+        </h1>
+        <p class="hero__desc reveal" data-delay="2">우리의 생활을 스마트하게 만드는 솔루션 기업, 웨이브온.<br>사용자 중심의 플랫폼과 AI 기술로 일상을 더 편리하게 바꿉니다.</p>
+        <div class="hero__actions reveal" data-delay="3">
+          <a class="btn btn--primary" href="business.html">사업 소개 보기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <a class="btn btn--ghost" href="contact.html">문의하기</a>
+        </div>
+      </div>
+    <div class="hero__waves" aria-hidden="true">
+      <svg class="w1" viewBox="0 0 2880 220" preserveAspectRatio="none"><path fill="#5b95c3" d="M0 120c240-60 480-60 720 0s480 60 720 0 480-60 720 0 480 60 720 0v100H0z"/></svg>
+      <svg class="w2" viewBox="0 0 2880 220" preserveAspectRatio="none"><path fill="#ffffff" d="M0 150c180-50 360-50 540 0s360 50 540 0 360-50 540 0 360 50 540 0 360-50 540 0 180 25 180 25v45H0z"/></svg>
+      <svg class="w3" viewBox="0 0 2880 220" preserveAspectRatio="none"><path fill="#ffffff" d="M0 180c240-30 480-30 720 0s480 30 720 0 480-30 720 0 480 30 720 0v40H0z"/></svg>
+    </div>
+      <span class="hero__scroll" aria-hidden="true">SCROLL</span>
+    </section>
 
+    <section class="section">
+      <div class="container intro">
+        <div class="intro__media reveal">
+          <img src="assets/img/about.jpg" alt="웨이브온 업무 환경" width="1600" height="831" loading="lazy">
+          <div class="intro__badge"><strong>Since 2017</strong><span>플랫폼 전문 기업</span></div>
+        </div>
+        <div class="intro__text">
+          <span class="eyebrow reveal">About Waveon</span>
+          <h2 class="section-title reveal" data-delay="1">생활을 바꾸는 기술,<br>누구나 쉽게 쓰는 플랫폼</h2>
+          <p class="lead reveal" data-delay="2" style="margin-top:24px">웨이브온은 우리의 생활을 스마트하게 바꿀 IT 기술을 연구하고, 그와 연계된 다양한 서비스를 직접 개발하여 제공하는 플랫폼 전문 기업입니다.</p>
+          <p class="reveal" data-delay="2">사용자의 편의성은 물론, 개발자가 아니더라도 누구나 손쉽게 관리할 수 있는 플랫폼 서비스를 제공합니다.</p>
+          <div class="stats reveal" data-delay="3">
+            <div class="stat"><strong>2017</strong><span>설립</span></div>
+            <div class="stat"><strong><span data-count="7">7</span><small>건</small></strong><span>특허 출원</span></div>
+            <div class="stat"><strong><span data-count="4">4</span><small>회</small></strong><span>중기부 R&amp;D 과제 선정</span></div>
+          </div>
+          <a class="btn btn--dark reveal" data-delay="4" href="about.html" style="margin-top:40px">회사 소개 더보기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </div>
+    </section>
 
-				<!-- 상단메뉴 :: pcq에만 출력 / 모바일버전에서 숨김 :: 상단메뉴 마우스 오버시 나오는 하위메뉴는 공통모듈의 각 서브메뉴에서 수정-->
-				<div class="pc_menu">
-					<ul>
-						<li><a class="link" href="/homepage/default/01/01.html?topmenu=1&amp;left=1">ABOUT WAVEON</a>
-							<ul>
-								<li><a href="#" onclick="javascript:location.href='/homepage/default/01/01.html?topmenu=1&amp;left=1'"
-										class="on_box">
-										인사말
-									</a></li>
-								<li><a href="#" onclick="javascript:location.href='/homepage/default/01/04.html?topmenu=1&amp;left=4'"
-										class="on_box">
-										비전과 미션
-									</a></li>
-								<li><a href="#" onclick="javascript:location.href='/homepage/default/01/02.html?topmenu=1&amp;left=2'"
-										class="on_box">
-										연혁
-									</a></li>
-								<li><a href="#" onclick="javascript:location.href='/homepage/default/01/03.html?topmenu=1&amp;left=3'"
-										class="on_box">
-										인증서
-									</a></li>
-							</ul>
-						</li>
-						<li><a class="link" href="/homepage/default/02/01.html?topmenu=2&amp;left=1">OUR BUSINESS</a></li>
-						<!-- <li><a class="link" href="/homepage/default/03/01.html?topmenu=3&amp;left=1">PORTFOLIO</a></li> -->
-						<li><a class="link" href="/homepage/default/04/01.html?topmenu=4&amp;left=1">OUR TEAM</a></li>
-						<li><a class="link" href="/homepage/default/05/01.html?topmenu=5&amp;left=1">CONTACT US</a></li>
-					</ul>
-				</div>
+    <section class="section section--dark">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <span class="eyebrow reveal">Business Area</span>
+          <h2 class="section-title reveal" data-delay="1">아이디어에서 운영까지,<br>IT 비즈니스의 모든 과정</h2>
+          <p class="section-desc reveal" data-delay="2">다양한 사업분야의 서비스를 다양한 디바이스를 통해 제공할 수 있도록 구축·운영·컨설팅하며, 미래 사용자들의 경험까지 연구합니다.</p>
+        </div>
+        <div class="area-grid">
+          <article class="area-card reveal">
+            <span class="area-card__num">01</span>
+            <div class="area-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="8" cy="8" r="3"/><circle cx="16" cy="16" r="3"/><path d="M10.5 10.5l3 3M3 21c0-2.8 2.2-5 5-5M21 3c0 2.8-2.2 5-5 5"/></svg></div>
+            <h3>Smart Matching Platform</h3>
+            <p>AI 스마트딜 매칭 알고리즘 기반의 인력·생활서비스 매칭 플랫폼</p>
+          </article>
+          <article class="area-card reveal" data-delay="1">
+            <span class="area-card__num">02</span>
+            <div class="area-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 9h8M8 13h5"/></svg></div>
+            <h3>IT Business Consulting</h3>
+            <p>표준 개발방법론을 바탕으로 한 철저한 기획과 타당성 조사</p>
+          </article>
+          <article class="area-card reveal" data-delay="2">
+            <span class="area-card__num">03</span>
+            <div class="area-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6M14 4l-4 16"/></svg></div>
+            <h3>Application Development</h3>
+            <p>웹·모바일·키오스크 애플리케이션과 AI 모듈 개발</p>
+          </article>
+          <article class="area-card reveal" data-delay="3">
+            <span class="area-card__num">04</span>
+            <div class="area-card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="7" rx="2"/><rect x="3" y="14" width="18" height="7" rx="2"/><path d="M7 6.5h.01M7 17.5h.01M11 6.5h6M11 17.5h6"/></svg></div>
+            <h3>System Integration</h3>
+            <p>안정적인 시스템 구축과 효율적인 유지보수·사후관리</p>
+          </article>
+        </div>
+        <div class="devices reveal">
+          <span>PC</span><span>Mobile Device</span><span>Wearable Device</span><span>Home Appliance</span><span>KIOSK</span>
+        </div>
+      </div>
+    </section>
 
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow reveal">Our Services</span>
+          <h2 class="section-title reveal" data-delay="1">웨이브온이 만드는 서비스</h2>
+        </div>
+        <div class="service-list">
+          <article class="service reveal">
+            <div class="service__media"><img src="assets/img/biz-caretogether.jpg" alt="CareTogether 서비스 화면" loading="lazy"></div>
+            <div class="service__body">
+              <span class="service__tag">스마트 돌봄 매칭</span>
+              <h3><small>스마트 돌봄 전문인력 매칭 플랫폼</small>CareTogether</h3>
+              <p>돌봄이 필요한 환자와 보호자가 간병인·요양보호사 등 돌봄 전문인력과 믿고 편하게 매칭할 수 있도록, 웨이브온의 AI 스마트딜 매칭 알고리즘을 적용한 서비스 플랫폼입니다.</p>
+            </div>
+          </article>
+          <article class="service reveal">
+            <div class="service__media"><img src="assets/img/biz-udt.jpg" alt="우리동네 특공대 UDT 로고" loading="lazy"></div>
+            <div class="service__body">
+              <span class="service__tag">생활서비스 매칭</span>
+              <h3><small>1인 가구를 위한 생활서비스 매칭</small>우리동네 특공대 UDT</h3>
+              <p>1인 가구에 필요한 다양한 생활서비스를 자신이 살고 있는 지역을 중심으로 매칭하고 추천하는 서비스 플랫폼입니다.</p>
+            </div>
+          </article>
+          <article class="service reveal">
+            <div class="service__media"><img src="assets/img/biz-aras.jpg" alt="ARAS-C 분석 화면" loading="lazy"></div>
+            <div class="service__body">
+              <span class="service__tag">AI 부동산 분석</span>
+              <h3><small>AI 기반 점포 매물 분석 솔루션</small>ARAS-C</h3>
+              <p>부동산 플랫폼에 등록되는 상업용 점포 매물의 가격 적정성과 수익률을 AI로 예측하고, 개별성이 강한 점포에 특화된 리포트를 제공합니다.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
+    <section class="section">
+      <div class="container">
+        <div class="section-head section-head--center">
+          <span class="eyebrow reveal">Vision</span>
+          <h2 class="section-title reveal" data-delay="1">작지만 강한 회사,<br>글로벌 기업을 추구합니다</h2>
+          <p class="section-desc reveal" data-delay="2">고객의 IT 비즈니스 성공을 위해 최고의 기술력으로 최선을 다하여 모두를 만족시키는 회사가 되겠습니다.</p>
+        </div>
+        <div class="value-grid">
+          <div class="value reveal"><div class="value__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.7c.6.5 1 1.3 1 2.1V17h6v-.2c0-.8.4-1.6 1-2.1A7 7 0 0 0 12 2z"/></svg></div><h3>자유롭고<br>열정적인 회사</h3></div>
+          <div class="value reveal" data-delay="1"><div class="value__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 10v11M2 12v7a2 2 0 0 0 2 2h12.4a2 2 0 0 0 2-1.6l1.4-7A2 2 0 0 0 17.8 10H14V5a3 3 0 0 0-3-3l-4 8"/></svg></div><h3>모두를 만족시키는<br>경영</h3></div>
+          <div class="value reveal" data-delay="2"><div class="value__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg></div><h3>고객 지향적<br>개발</h3></div>
+          <div class="value reveal" data-delay="3"><div class="value__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a4 4 0 0 1-4 4M7 5H4v2a4 4 0 0 0 4 4"/></svg></div><h3>연구개발 및<br>신기술 확보</h3></div>
+          <div class="value reveal" data-delay="4"><div class="value__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg></div><h3>글로벌<br>기업</h3></div>
+        </div>
+      </div>
+    </section>
 
-				<dl class="ff">
-					<dt>상단메뉴</dt>
-                    <!--
-					<dd><a href="https://www.instagram.com/" target="_blank"><img src="/homepage/default/img/icon_insta.png"
-								alt="인스타그램"></a></dd>
-					<dd><a href="https://section.blog.naver.com/BlogHome.nhn?directoryNo=0&amp;currentPage=1&amp;groupId=0"
-							target="_blank"><img src="/homepage/default/img/icon_blog.png" alt="블로그"></a></dd>
-                    -->
-					<dd class="listBtn closed" id="trigger-overlay">메뉴버튼</dd>
-				</dl>
-			</div>
-		</div>
-		<!-- 헤더 END -->
+    <section class="section" style="padding-top:0">
+      <div class="container">
+        <div class="cta reveal">
+          <div>
+            <h2>새로운 프로젝트를 계획하고 계신가요?</h2>
+            <p>기술력과 경험으로 서비스를 성공적으로 수행합니다.</p>
+          </div>
+          <a class="btn" href="contact.html">프로젝트 문의 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-		<!-- 내용 START -->
-		<div id="contentwrap">
-			<div class="slider" id="visual">
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div>
+          <a class="footer__logo" href="index.html"><img src="assets/img/logo.png" alt="WAVEON" width="140" height="24"></a>
+          <p class="footer__slogan">우리의 생활을 스마트하게 만드는 플랫폼 전문 기업</p>
+        </div>
+        <div class="footer__nav">
+          <div>
+            <h4>ABOUT</h4>
+            <ul>
+              <li><a href="about.html">인사말</a></li>
+              <li><a href="vision.html">비전과 미션</a></li>
+              <li><a href="history.html">연혁</a></li>
+              <li><a href="certificates.html">인증서</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>COMPANY</h4>
+            <ul>
+              <li><a href="business.html">사업소개</a></li>
+              <li><a href="team.html">조직 &amp; 복리후생</a></li>
+              <li><a href="contact.html">오시는 길</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__info">
+        <address>
+          <strong>(주)웨이브온</strong><br>
+          <span>서울특별시 금천구 디지털로 178, 제비동 4층 401호 (가산동, 가산퍼블릭)</span><br>
+          <span>TEL. 02-2088-5478</span><span>FAX. 02-6008-5462</span><span>E-mail. <a href="mailto:wcyoo@waveon.biz">wcyoo@waveon.biz</a></span>
+        </address>
+        <p class="copyright">&copy; 2026 WAVEON Co., Ltd. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
 
-				<!-- 메인 비쥬얼 -->
-				<ul class="slides js-flickity" data-flickity-options='{ "wrapAround": true, "autoPlay":9000 }' >
+  <button class="to-top" type="button" aria-label="맨 위로"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg></button>
 
-					<!-- 메인 이미지1 -->
-					<li class="cont" style="background-image:url(/homepage/default/img/main_img1.jpg);">
-						<div class="box">
-							<h2>
-								<span class="txt1">
-									BUILD For
-								</span>
-								<span class="txt2">
-									SMART LIFE
-								</span>
-							</h2>
-							<h3>
-								우리의 생활을 스마트하게 만들 솔루션 기업
-							</h3>
-						</div>
-					</li>
-
-
-					<!-- 메인 이미지2 -->
-					<li class="cont" style="background-image:url(/homepage/default/img/main_img2.jpg);">
-						<div class="box">
-							<h2>
-								<span class="txt1">
-									CHANGING
-								</span>
-								<span class="txt2">
-									Your LIFE
-								</span>
-							</h2>
-							<h3>
-								우리의 생활을 바꿔 줄 수 있는 기업
-							</h3>
-						</div>
-					</li>
-
-					<!-- 메인 이미지3-->
-					<li class="cont" style="background-image:url(/homepage/default/img/main_img3.jpg);">
-						<div class="box">
-							<h2>
-								<span class="txt1">
-									A COMPANY 
-								</span>
-								<span class="txt2">
-									For YOUR LIFE
-								</span>
-							</h2>
-							<h3>
-								우리의 생활을 위한 기업
-							</h3>
-						</div>
-					</li>
-
-					<!-- 메인 이미지4 -->
-					<li class="cont" style="background-image:url(/homepage/default/img/main_img4.jpg);">
-						<div class="box">
-							<h2>
-								<span class="txt1">
-									PROVIDING
-								</span>
-								<span class="txt2">
-									a PLATFORM
-								</span>
-							</h2>
-							<h3>
-								우리의 생활을 편리하게 만들 플랫폼 개발
-							</h3>
-						</div>
-					</li>
-				</ul>
-
-				<!-- //본문이동버튼 -->
-				<div class="downBtn">
-					<a href="#aa"><img src="/homepage/default/img/downbtn.png" alt="본문이동버튼"></a>
-				</div>
-			</div>
-
-			<script>
-				var $brandArea = $('.brand_area');
-				var slideBrandIntv;
-				window.onload = function () {
-					$('.txt_bg_wrap').show();
-					textAniTop();
-				};
-				function textAniTop() {
-					$(".txt_top").stop().css({right: 0});
-					$(".txt_top").animate({
-						right: '-=1800px',
-					}, 25000, 'linear', function () {
-						textAniTop();
-					});
-				}
-
-			</script>
-		</div>
-
-		<div id="aa" data-animate-down="show" data-animate-up="hide"  class="content"></div>
-
-		<!--  사업소개 롤링 -->
-		<script src="/homepage/default/img/js/slick.js"></script>
-		<script src="/homepage/default/img/js/main_test.js"></script>
-		<article id="mcount">
-
-			<!-- 움직이는 원형 -->
-			<div class="mm_img1"></div>
-
-
-			<!-- 우로 스크롤 롤링되는 텍스트// 글자수 비슷하게 맞추셔야 합니다. 영문입력-->
-            <!--
-			<div class="txt_bg_wrap">
-				<div class="txt_bg">
-					<div class="txt_top">
-						<div class="inner">
-							<span>OUR BEST BUSINESS. OUR BEST BUSINESS</span>
-						</div>
-						<div class="inner">
-							<span>OUR BEST BUSINESS. OUR BEST BUSINESS</span>
-						</div>
-					</div>
-				</div>
-			</div>
-			-->
-
-
-
-			<!-- 배경 회색 글씨-->
-			<div class="txt_bg_gray">
-				BUSINESS
-			</div>
-
-			<!-- 타이틀 -->
-			<div class="top_tit wow slideInTop">
-				<h2>
-					사업소개
-				</h2>
-				<div class="subText">
-					IT 비즈니스 컨설팅,시스템 통합,애플리케이션 개발,스마트 매칭 플랫폼 서비스 등
-					<span class="pcbr"></span>
-					다양한 사업분야의 서비스를 PC, Mobile Device, Wearable Device, Home Appliance 등
-					<span class="pcbr"></span>다양한 디바이스를 통해 제공할 수 있도록 구축, 운영, 컨설팅을 하고 있으며,
-					미래 사용자들의 경험까지도 연구하고 있습니다.
-				</div>
-			</div>
-
-
-			<div class="gb_arlim">
-				<div class="wrap">
-					<div class="popup_li wow slideInRight">
-
-						<!-- 배너 1 -->
-						<div>
-							<dl>
-								<dt>
-									<a href="javascript:;">
-										<div class="ov"></div>
-										<img src="/homepage/default/img/mlo_banner1.jpg">
-									</a>
-								</dt>
-								<dd>
-									<div class="tit">
-										<h2>
-											Smart matching platform
-										</h2>
-									</div>
-								</dd>
-							</dl>
-						</div>
-
-						<!-- 배너 2 -->
-						<div>
-							<dl>
-								<dt>
-									<a href="javascript:;">
-										<div class="ov"></div>
-										<img src="/homepage/default/img/mlo_banner2.jpg">
-									</a>
-								</dt>
-								<dd>
-									<div class="tit">
-										<h2>
-											IT Business Consulting
-										</h2>
-									</div>
-								</dd>
-							</dl>
-						</div>
-
-						<!-- 배너 3 -->
-						<div>
-							<dl>
-								<dt>
-									<a href="javascript:;">
-										<div class="ov"></div>
-										<img src="/homepage/default/img/mlo_banner3.jpg">
-									</a>
-								</dt>
-								<dd>
-									<div class="tit">
-										<h2>
-											Application Development
-										</h2>
-									</div>
-								</dd>
-							</dl>
-						</div>
-
-						<!-- 배너 4 -->
-						<div>
-							<dl>
-								<dt>
-									<a href="javascript:;">
-										<div class="ov"></div>
-										<img src="/homepage/default/img/mlo_banner4.jpg">
-									</a>
-								</dt>
-								<dd>
-									<div class="tit">
-										<h2>
-											System Integration
-										</h2>
-									</div>
-								</dd>
-							</dl>
-						</div>
-
-					</div>
-					<button class="pause">Pause</button>
-					<button class="play">Play</button>
-				<!-- </div> -->
-		</article>
-
-		<!-- 배너:: 웹팩토리는?  동그란 배너4개-->
-		<div class="about">
-			<div class="about_top wow slideInLeft">
-				<h3>
-					회사비전
-				</h3>
-				<p>고객의 IT비지니스 성공을 위해 최고의 기술력으로
-					최선을 다하여 모두를 만족시키는 회사, 작지만 강한 회사, 글로벌 기업을 추구합니다.
-				</p>
-			</div>
-
-			<!-- 움직이는 원형 -->
-			<div class="mm_img2"></div>
-			<div class="mm_img3"></div>
-
-			<div class="content container01">
-				<div class="box01">
-					<ul class="wow slideInBottom">
-
-						<!-- 배너1 -->
-						<li>
-							<a href="javascript:;">
-								<div class="img">
-									<h3>자유롭고<br>
-										열정적인 회사 </h3>
-									<div class="mb_01"></div>
-								</div>
-							</a>
-						</li>
-
-
-
-						<!-- 배너2 -->
-						<li>
-							<a href="javascript:;">
-								<div class="img">
-									<h3>모두를 <br>만족시키는 경영</h3>
-									<div class="mb_02"></div>
-								</div>
-							</a>
-						</li>
-
-
-
-
-						<!-- 배너3 -->
-						<li>
-							<a href="javascript:;">
-								<div class="img">
-									<h3>고객 지향적 <br>개발 </h3>
-									<div class="mb_03"></div>
-								</div>
-							</a>
-						</li>
-
-
-
-						<!-- 배너4 -->
-						<li>
-							<a href="javascript:;">
-								<div class="img">
-									<h3>연구개발 및 <br>신기술 확보
-									</h3>
-									<div class="mb_04"></div>
-								</div>
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-
-		<script type="text/javascript">
-			$(function () {
-				$(".counter").countimator();
-			});
-		</script>
-		<!-- 내용 END -->
-
-		<!-- 푸터 START -->
-		<!-- 회사정보 -->
-		<div id="footer">
-			<div class="f_menu">
-				<!-- <ul> -->
-
-
-					<!-- 항상 출력되는메뉴 -->
-					<!-- <li><a href="/homepage/default/member/use.html?topmenu=m&amp;left=1">이용약관</a></li>
-					<li><a href="/homepage/default/member/privacy.html?topmenu=m&amp;left=2">개인정보취급방침</a></li> -->
-
-
-					<!-- 로그아웃 상태일 때만 출력되는 메뉴 -->
-					<!-- <li><a href="/homepage/default/member/join.php?topmenu=m&amp;left=4">회원가입</a></li>
-					<li><a href="/homepage/default/member/login.php?topmenu=m&amp;left=3">로그인</a></li> -->
-
-					<!-- 로그인 상태일 때만 출력되는 메뉴 -->
-
-
-				<!-- </ul> -->
-			</div>
-
-			<!-- 하단 회사정보 입력  -->
-			<div class="f_text">
-				<p>
-					<span>
-						(주)웨이브온
-					</span>
-				</p>
-				<p>
-					<span>
-						주소: 서울시 금천구 디지털로178. 가산퍼블릭 B동401호
-					</span>
-				</p>
-				<p>
-					<span>
-						연락처: TEL. 02-2088-5478, FAX. 02-6008-5462
-					</span>
-					<span>
-						E-Mail: wcyoo@waveon.biz
-					</span>
-				</p>
-				<p>
-					Copyright ⓒ 2022 WAVEON All Rights Reserved.
-				</p>
-			</div>
-
-			<!-- 상단으로 -->
-			<div class="ftop">
-				<div id="cmTopScroll" class="TopScroll" style="bottom: 40px;"> <a href="#header" class="top">TOP</a> </div>
-			</div>
-			<div class="blocker"></div>
-
-			<script src="/homepage/default/img/js/skrollr.js"></script>
-			<script src="/homepage/default/img/js/waypoints.min.js"></script>
-			<script src="/homepage/default/img/js/Timer.js"></script>
-			<script>
-				$('body').show();
-				//  $('.version').text(NProgress.version);
-				NProgress.start();
-				setTimeout(function () {NProgress.done(); $('.fade').removeClass('out');}, 100);
-				$('input, textarea').placeholder();
-			</script>
-		</div>
-
-		<script language="javascript" type="text/javascript" src="/homepage/cjs/javascript.lib.js?date=1647911599"></script>
-
-		<script type="text/javascript">
-			var JsHost = (("https:" == document.location.protocol) ? "https://" : "http://");
-			var sTime = new Date().getTime();
-			// http://blg-jsk.cafe24.com/weblog.js?uid=terrait&t=1670465513173
-			document.write(unescape("%3Cscript id='log_script' src='" + JsHost + "blg-jsk.cafe24.com/weblog.js?uid=terrait&t=" + sTime + "' type='text/javascript'%3E%3C/script%3E"));
-		</script>
-	</div>
+  <script src="assets/js/main.js"></script>
 </body>
-
 </html>
-<!-- 푸터 END -->
